@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="table.css">
+    <script src="table.js"></script>
+</head>
+<body>
+        <div class="input-background">
+            <h2>TABLE</h2>
+            <fieldset class="input-row-col">
+                <legend>INPUT</legend>
+                <div class="section1">
+                    <label for="row">ROW: </label><br>
+                    <label for="col">COL: </COL>: </label>
+                </div>
+                <div class="section2">
+                    <input type="number" id="row" name="row" value="20"><br>   
+                    <input type="number" id="col" name="row" value="20">
+                </div>
+                <br><br>
+                <div id="alert-box"></div><br>
+            <button type="submit" onclick="createTable();" class="submit">
+                CREAT TABLE
+            </button>
+        
+            </fieldset>
+            <hr>
+
+        <fieldset class="display-row-col">
+            <legend>RESULT: </legend><br><br>
+
+            <div id="result"></div>
+
+
+
+        </fieldset>
+
+        </div>
+        
+        
+    
+</body>
+</html>

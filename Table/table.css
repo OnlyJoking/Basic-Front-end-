@@ -1,0 +1,53 @@
+body{
+    background-image: url('img/background.jpg');
+}
+.input-background{
+    width: 40%;
+    margin: 0% auto;
+    border: (163, 228, 215) 5px solid;
+    background-color: rgba(26, 188, 156, 60%);
+    border-radius: 8%;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+legend{
+    font-weight: bolder;
+    font-size: 120%;
+   
+    
+}
+.section1{
+    display: inline-block;
+    width: 20%;
+}
+.section2{
+    display: inline-block;
+    width: 50%;
+    padding-right: 20%;
+    border-radius: 10%;
+
+}
+input{
+    line-height: 200%;
+    border-radius: 10px;
+    width: 110%;
+    padding-right: 5%;
+}
+button{
+   color: rgb(175, 9, 42);
+    border-radius: 5px;
+    margin-left: 35%;
+    
+}fieldset{
+    border: 2px springgreen solid;
+}
+#alert-box{
+    color: rgb(247, 44, 8);
+    margin-left: 20%;
+}
+table {
+    color:maroon;
+}
